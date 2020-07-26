@@ -2,14 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Registration from './Registration';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    Hi
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		{/* <App /> */}
+		<br></br><br></br>
+		<Registration />
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
